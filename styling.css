@@ -1,21 +1,53 @@
-body{
-    background: hsl(225, 100%, 94%); 
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.patternbck {
-    width:-webkit-fill-available;
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+
 }
 
-.myspace{
-    width: 340px;
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.text-content{
+    padding: 8%;
     text-align: center;
-    margin:auto;
-    background: #f4f4f4;
-    border-radius: 10px;
-    box-shadow: #d5d2f9 -8px 9px 5px;
+}
+.title{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.text-content p.subtitle {
+    color: #6162a5;
+    margin-bottom: 25px;
+
 }
 
-.hero{
-    width: -webkit-fill-available;
-    border-radius: 10px 10px 0px 0px;
+.plan-box {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
 }
+
+
+
+
