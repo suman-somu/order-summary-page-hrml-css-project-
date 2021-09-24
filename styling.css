@@ -1,16 +1,21 @@
 body{
-    margin: 200px 500px;
+    background: hsl(225, 100%, 94%); 
 }
 
-
-
-
-.grey{
-    background-color: grey;
-    
-    
+.patternbck {
+    width:-webkit-fill-available;
 }
 
-.para{
+.myspace{
+    width: 340px;
     text-align: center;
+    margin:auto;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: #d5d2f9 -8px 9px 5px;
+}
+
+.hero{
+    width: -webkit-fill-available;
+    border-radius: 10px 10px 0px 0px;
 }
